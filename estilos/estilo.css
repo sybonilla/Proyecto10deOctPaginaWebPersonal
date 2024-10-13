@@ -1,0 +1,132 @@
+.padre{
+    /* #F2F2F2	#93BBBF	#374342	#899B9F	#0D0D0D */
+    padding: 5px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "nav    nav    nav"
+                         "cont1  cont2  cont3"
+                         "foot   foot   foot";
+}
+.padre .header{
+    background-color: #93BBBF;
+    grid-area: header;
+    justify-content: center;
+    text-align: center;
+}
+.padre .nav{
+    background-color: #374342;
+    padding: 15px;
+    grid-area: nav;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.padre .cont1{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont1;
+}
+.padre .cont2{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont2;
+}
+.padre .cont3{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont3;
+}
+.padre .foot{
+    background-color: #0D0D0D;
+    padding: 15px;
+    grid-area: foot;
+    justify-content: center;
+    text-align: center;
+}
+
+/*paginas extras*/
+.padre2{
+    /* #F2F2F2	#93BBBF	#374342	#899B9F	#0D0D0D */
+    padding: 5px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns:4fr 2fr;
+    grid-template-areas: "header header"
+                         "nav    nav"
+                         "cont1  cont2"
+                         "foot   foot";
+}
+.padre2 .header{
+    background-color: #93BBBF;
+    grid-area: header;
+    justify-content: center;
+    text-align: center;
+}
+.padre2 .nav{
+    background-color: #374342;
+    padding: 15px;
+    grid-area: nav;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.padre2 .cont1{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont1;
+}
+.padre2 .cont2{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont2;
+}
+.padre2 .foot{
+    background-color: #0D0D0D;
+    padding: 15px;
+    grid-area: foot;
+    justify-content: center;
+    text-align: center;
+}
+
+/*paginas extras2*/
+.padre3{
+    /* #F2F2F2	#93BBBF	#374342	#899B9F	#0D0D0D */
+    padding: 5px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns:2fr 4fr;
+    grid-template-areas: "header header"
+                         "nav    nav"
+                         "cont1  cont2"
+                         "foot   foot";
+}
+.padre3 .header{
+    background-color: #93BBBF;
+    grid-area: header;
+    justify-content: center;
+    text-align: center;
+}
+.padre3 .nav{
+    background-color: #374342;
+    padding: 15px;
+    grid-area: nav;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.padre3 .cont1{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont1;
+}
+.padre3 .cont2{
+    background-color: #899B9F;
+    padding: 15px;
+    grid-area: cont2;
+}
+.padre3 .foot{
+    background-color: #0D0D0D;
+    padding: 15px;
+    grid-area: foot;
+    justify-content: center;
+    text-align: center;
+}
